@@ -1,0 +1,99 @@
+{
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "adapter",
+            "intents": [
+                {
+                    "name": "AMAZON.FallbackIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "default_intent",
+                    "slots": [
+                        {
+                            "name": "text",
+                            "type": "catchAll"
+                        }
+                    ],
+                    "samples": [
+                        "xyzpqr",
+                        "{text}"
+                    ]
+                }
+            ],
+            "types": [
+                {
+                    "name": "catchAll",
+                    "values": [
+                        {
+                            "name": {
+                                "value": "standard"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "get"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "etrnal"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "geography"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "atlanta"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "honolulu"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "custom"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "agree"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "tomorrow"
+                            }
+                        },
+                        {
+                            "name": {
+                                "value": "first value"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

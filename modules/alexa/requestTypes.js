@@ -1,0 +1,13 @@
+module.exports={
+    LAUNCH:"LaunchRequest",
+    INTENT:"IntentRequest",
+    END_SESSION:"SessionEndedRequest",
+    AUDIO_STARTED:"AudioPlayer.PlaybackStarted",
+    AUDIO_FINISHED:"AudioPlayer.PlaybackFinished",
+    AUDIO_STOPPED:"AudioPlayer.PlaybackStopped",
+    AUDIO_NEARLY_FINISHED:"AudioPlayer.PlaybackNearlyFinished",
+    AUDIO_FAILED:"AudioPlayer.PlaybackFailed",
+    EXCEPTION:"System.ExceptionEncountered",
+    START_AUDIO:"Audio",
+    STOP_AUDIO:"Stop_Audio"
+}
